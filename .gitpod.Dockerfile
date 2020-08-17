@@ -1,6 +1,5 @@
-FROM gitpod/workspace-full-vnc
-RUN sudo apt-get update && \
-    sudo apt-get install -yq snapd
+FROM gitpod/mysql
+RUN sudo apt-get update
 # RUN snap install phpstorm --classic
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
