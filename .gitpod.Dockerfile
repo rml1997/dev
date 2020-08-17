@@ -1,4 +1,4 @@
-FROM gitpod/mysql
+FROM gitpod/workspace-mysql
 RUN sudo apt-get update
 # RUN snap install phpstorm --classic
 # Install custom tools, runtimes, etc.
