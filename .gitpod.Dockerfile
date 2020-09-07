@@ -1,8 +1,2 @@
-FROM gitpod/workspace-mysql
-RUN sudo apt-get update
-# RUN snap install phpstorm --classic
-# Install custom tools, runtimes, etc.
-# For example "bastet", a command-line tetris clone:
-# RUN brew install bastet
-#
-# More information: https://www.gitpod.io/docs/config-docker/
+FROM gitpod/full
+RUN sudo apt-get update && sudo curl https://get.okteto.com -sSfL | sh

@@ -1,2 +1,5 @@
 image:
   file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - Okteto.remote-kubernetes@0.1.28:0uncH5hjFuO5K6i6S45anA==
