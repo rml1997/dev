@@ -1,7 +1,2 @@
-{
-   "folders": [
-      {
-         "path": ""
-      }
-   ]
-}
+name: dev
+image: ubuntu
