@@ -1,2 +1,4 @@
 name: dev
 image: ubuntu
+sync:
+  - .:/code
