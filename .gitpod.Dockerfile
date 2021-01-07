@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full-vnc
 RUN echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> /home/gitpod/.bash_profile
 RUN sudo apt-get update 
 # RUN sudo curl https://get.okteto.com -sSfL | sh
