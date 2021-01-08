@@ -5,4 +5,3 @@ RUN sudo apt-get update
 RUN brew update
 RUN brew upgrade
 RUN brew install terraform gh oci-cli okteto
-RUN brew install --cask google-cloud-sdk
