@@ -4,4 +4,4 @@ RUN sudo apt-get update
 # RUN sudo curl https://get.okteto.com -sSfL | sh
 RUN brew update
 RUN brew upgrade
-RUN brew install okteto terraform gh oci-cli --cask google-cloud-sdk
+RUN brew install terraform gh oci-cli --cask google-cloud-sdk
